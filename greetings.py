@@ -17,6 +17,9 @@ class Student:
     def is_enrolled(self):
         return self.classroom is not None
 
+    def farewel(self):
+        return f"See you soon, {self.first_name}! Allo "
+
 
 # Create a student object
 student = Student("Tuka", "Bade")
