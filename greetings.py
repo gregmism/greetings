@@ -18,7 +18,7 @@ class Student:
         return self.classroom is not None
 
     def farewel(self):
-        return f"See you soon, {self.first_name}!"
+        return f"See you soon, {self.first_name}! Allo "
 
 
 # Create a student object
